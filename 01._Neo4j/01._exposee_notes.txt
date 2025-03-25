@@ -11,4 +11,11 @@ Pros:
   I was able to showcase granular acces control using neo4j.
   Granularity is small (single node)
   
-  
+Other:
+  free versions of webtunneling does not work to expose a DB as Db uses tcp
+  free version of webtunnel software does not support tcp
+  As docker did not work with free vers. of neo4j and webtunnel did not work with free vers.
+  We had to use tailscale - tailscale worked fine, but downsides are you have to communicate
+  a little bit to get connected, which goes against the spirit of the assignment.
+  All these factors put together, maybe signals that, for this assignment, neo4j was the wrong choice.
+  I however was too stubborn to let it go, and enjoyed the process of trying neo4j.
