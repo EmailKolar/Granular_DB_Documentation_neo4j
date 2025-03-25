@@ -2,4 +2,13 @@ Important note - granular acces only available for enterprise version of neo4j
 
 Dev version of enterprise is available for free on the desktop version of neo4j
 
-test
+Cons: 
+  Neo4j free version is limited - you have to use desktop version to create roles. 
+  Therefore making a docker image and sending that to integrator proved difficult.
+  It is an atypical database type comparing to what I am used to.
+Pros: 
+  Fairly simple to create and alter databases.
+  I was able to showcase granular acces control using neo4j.
+  Granularity is small (single node)
+  
+  
